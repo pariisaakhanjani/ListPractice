@@ -1,17 +1,17 @@
-# These are my list exercises
+# These are my list of exercises
 
 
-1) Write a Python program to sum all the items in a list.
+1) Write a Python program to sum up all the items in a list.✅
 
-2) Write a Python program to get the smallest number from a list.
+2) Write a Python program to get the smallest number from a list.✅
 
 3) Write a Python program to count the number of strings from a given list of strings. The string length is 2 or more and the first and last characters are the same. (search isdigit)
 Sample List : ['abc', 'xyz', 'aba', '1221']
-Expected Result : 2
+Expected Result : 2✅
 
-4) Write a Python program to remove duplicates from a list.
+4) Write a Python program to remove duplicates from a list.✅
 
-5) Write a Python program to clone or copy a list.
+5) Write a Python program to clone or copy a list.✅
 
 6) Write a Python program to find the list of words that are longer than n from a given list of words.
 
