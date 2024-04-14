@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a2917a56-2e1b-4861-882c-23fd572e2c67</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RemoveDuplicates.py</StartupFile>
+    <StartupFile>basicspractice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Sum_List.py" />
+    <Compile Include="basicspractice.py" />
     <Compile Include="Smallest_List.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
