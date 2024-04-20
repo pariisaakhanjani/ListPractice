@@ -1,6 +1,6 @@
 devisorofInput = []
 user_input = int(input("Enter a number and I will tell you which prime numbers it is made of:"))
-
+biggest = 0
 for i in range(1, user_input+1):
     if user_input % i == 0:
         devisorofInput.append(i)
@@ -14,5 +14,7 @@ for j in devisorofInput:
             isprime = False
     if isprime == True:
         print(j)
+        if biggest < j:
+            biggest = j
+print("the biggest factor is", biggest)
 
-        
