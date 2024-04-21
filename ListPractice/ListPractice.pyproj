@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a2917a56-2e1b-4861-882c-23fd572e2c67</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>primeNumberN.py</StartupFile>
+    <StartupFile>sumSquareDifference.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,7 @@
     <Compile Include="Factorial.py" />
     <Compile Include="lastPrimeNumber.py" />
     <Compile Include="primeNumberN.py" />
+    <Compile Include="sumSquareDifference.py" />
     <Compile Include="Sum_List.py" />
     <Compile Include="basicspractice.py" />
     <Compile Include="Smallest_List.py" />
