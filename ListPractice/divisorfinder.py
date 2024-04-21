@@ -6,15 +6,27 @@ for i in range(1, user_input+1):
         devisorofInput.append(i)
 print(devisorofInput)
 
-for j in devisorofInput:
-    #if j is prime => print j
+
+
+def IsPrime(x):
     isprime = True
     for k in range(2, j):
         if j % k == 0:
             isprime = False
-    if isprime == True:
+    return isprime
+
+
+
+
+for j in devisorofInput:
+    #if j is prime => print j
+    
+    if IsPrime(j) == True:
         print(j)
         if biggest < j:
             biggest = j
 print("the biggest factor is", biggest)
+
+
+
 
