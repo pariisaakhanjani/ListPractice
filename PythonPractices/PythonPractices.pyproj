@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a2917a56-2e1b-4861-882c-23fd572e2c67</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>Basics\sumSquareDifference.py</StartupFile>
+    <ProjectGuid>59551409-266f-4ff7-8062-ba67ba8b43dd</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Basics\Factorial.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PythonPractices</Name>
-    <RootNamespace>ListPractice</RootNamespace>
+    <RootNamespace>PythonPractices</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,20 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Basics\basicspractice.py" />
+    <Compile Include="Basics\divisorfinder.py" />
     <Compile Include="Basics\Factorial.py" />
     <Compile Include="Basics\lastPrimeNumber.py" />
     <Compile Include="Basics\primeNumberN.py" />
     <Compile Include="Basics\sumSquareDifference.py" />
-    <Compile Include="List\Sum_List.py" />
-    <Compile Include="Basics\basicspractice.py" />
     <Compile Include="List\Smallest_List.py" />
+    <Compile Include="List\Sum_List.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Basics\divisorfinder.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="List\" />
     <Folder Include="Basics\" />
+    <Folder Include="List\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
