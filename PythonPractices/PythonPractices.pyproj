@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>59551409-266f-4ff7-8062-ba67ba8b43dd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Basics\Factorial.py</StartupFile>
+    <StartupFile>Functions\test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,12 +27,14 @@
     <Compile Include="Basics\lastPrimeNumber.py" />
     <Compile Include="Basics\primeNumberN.py" />
     <Compile Include="Basics\sumSquareDifference.py" />
+    <Compile Include="Functions\test.py" />
     <Compile Include="List\Smallest_List.py" />
     <Compile Include="List\Sum_List.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basics\" />
     <Folder Include="List\" />
+    <Folder Include="Functions\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
