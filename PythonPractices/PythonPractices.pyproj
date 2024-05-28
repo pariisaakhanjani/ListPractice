@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>59551409-266f-4ff7-8062-ba67ba8b43dd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Functions\test.py</StartupFile>
+    <StartupFile>Functions\palindromeSentence.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,7 @@
     <Compile Include="Basics\lastPrimeNumber.py" />
     <Compile Include="Basics\primeNumberN.py" />
     <Compile Include="Basics\sumSquareDifference.py" />
+    <Compile Include="Functions\palindromeSentence.py" />
     <Compile Include="Functions\test.py" />
     <Compile Include="List\Smallest_List.py" />
     <Compile Include="List\Sum_List.py" />
